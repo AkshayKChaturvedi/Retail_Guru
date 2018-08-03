@@ -1,0 +1,20 @@
+Please find the necessary code inside 'Retail_Guru.py', it has been used to complete two tasks:
+
+Task A: Find the common monthly basket across customers. Monthly baskets are the one time large baskets that people tend to
+buy at the start of the month (but not strictly in that period).
+
+Task B: Find the items that can be sold in combo and the reason for these items to coexist in the combo.
+
+The code also generates two csv files ('combo_items.csv' for Task B and 'monthly_basket.csv' for Task A) which contain 
+the results i.e. frequent itemsets and their respective support.
+
+Some quick points on Task B results:
+
+1. All of the items in the combo are food items, not surprising as food is basic necessity for human survival.
+2. Sugar and Salt are two common items which are used extensively in the whole world.
+3. Other items in the list (such as ulundu, toor dhal) suggest that this combo of items might be from (or suitable for) 
+   southern part of India (Tamil Nadu specifically) as ulundu is used to make Vada and toor dal to make Sambar 
+   (toor dal is used on a daily basis in whole of India but ulundu (or urad dal) is not used so much in other parts of India).
+
+Note: Please change the path of data and csv files to write respectively, 'fim' package has been used to apply fpgrowth 
+algorithm in the code, so please install it.
