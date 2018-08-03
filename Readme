@@ -16,5 +16,8 @@ Some quick points on Task B results:
    southern part of India (Tamil Nadu specifically) as ulundu is used to make Vada and toor dal to make Sambar 
    (toor dal is used on a daily basis in whole of India but ulundu (or urad dal) is not used so much in other parts of India).
 
+In Task A, I have used time frame of first 7 days of a month to compute the monthly basket, I got this number from talking 
+to friends and family members.
+
 Note: Please change the path of data and csv files to write respectively, 'fim' package has been used to apply fpgrowth 
 algorithm in the code, so please install it.
